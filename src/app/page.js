@@ -33,7 +33,7 @@ const textNodes = [
     options: [
       {
         text: 'Eat pizza',
-        nextText: 1 // Or any other appropriate nextText value
+        nextText: 1 
       }
     ]
   }
