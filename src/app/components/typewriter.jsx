@@ -4,7 +4,7 @@ export default function useTypewriter(text, speed = 100) {
   const [displayedText, setDisplayedText] = useState('');
 
   useEffect(() => {
-    setDisplayedText(''); // Reset displayed text
+    setDisplayedText(''); 
 
     let index = 0;
     const interval = setInterval(() => {
